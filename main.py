@@ -90,6 +90,7 @@ class CrossMintInterview:
                     elif astral_obj == "COMETH":
                         attr['direction'] = obj.split("_")[0].lower()
 
+                    # Since Polyanets do not have attributes we don't check them.
                     self.setAstralObject(
                         self.map_to_astral_objects[astral_obj], r, c, attr)
 
